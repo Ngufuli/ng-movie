@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movie App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/bootstrap-4.5.2-dist/css/bootstrap.min.css">  
+</head>
+<body class="bg-dark">
+    <!-- Navbar begins here -->
+    
+        <nav class="nav navbar-expand-sm bg-secondary navbar-secondary">
+            <span class="container">
+                <a class="navbar-brand" href="/">
+                    <img src="/images/n.png" alt="Logo" style="width: 40px;">
+                </a>
+                 
+               <span class="float-right pt-1">
+                <span>
+                    <a href="#" class="text-white ml-2">Technology</a>
+                </span>
+                <span>
+                    <a href="#" class="text-white ml-2">API</a>
+                </span>
+                <span>
+                    <a href="#" class="text-white ml-2">Kaizen</a>
+                </span>
+               </span>
+            </span>
+            
+        </nav>
+    
+
+    <!-- container begins here-->
+    <div class="container pt-5">
+        <!-- Jumbotron begins here -->
+        <div class="pt-5">
+            <div class="text-center text-warning p-3">
+                <h2>Search for movies, actors and directors</h2>
+            </div>
+            <div class="">
+                <form action="/result" method="GET" class="justify-content-center d-flex">
+                    <input type="text" name="search" class="form-control w-25 bg-dark text-white" value="Avengers">
+                    <input type="submit" class="btn btn-warning ml-2" value="Search">
+                </form>
+            </div>
+        </div>
+        <!-- jumbotron ends here -->
+    </div>
+    <!-- container ended here -->
+ 
+<!-- scripts begin here -->
+    <script src="/bootstrap-4.5.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
