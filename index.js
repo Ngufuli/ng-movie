@@ -18,7 +18,7 @@ app.get('/result', (req, res)=>{
    
     let query = req.query.search;
 
-    request("https://api.themoviedb.org/3/search/movie?api_key=4522208f3671172e960d09695d85924d&query="+query, (error, response, body)=>{
+    request("https://api.themoviedb.org/3/search/movie?api_key=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&query="+query, (error, response, body)=>{
         if(error){
             console.log(error);
         }else{
